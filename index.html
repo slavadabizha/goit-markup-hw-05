@@ -45,7 +45,7 @@
     <section class="hero">
       <div class="container">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="main-button">Order Service</button>
+        <button type="button" data-modal-open class="main-button">Order Service</button>
       </div>
     </section>
       <section class="feature">
@@ -111,15 +111,14 @@
         <h2 class="our_team">Our Team</h2>
         <ul class="flex_container">
           <li class="team-list-item">
-            <div class="team_list_img_wrapper">
+            <div>
             <img
               src="images/Mark_Guerro.jpg"
               width="264"
               height="260"
               alt="Mark Guerro"
             />
-            <p class="overlay">ggg</p>
-          </div>
+            </div>
             <div class="card-content">
             <h3 class="card-title">Mark Guerro</h3>
             <p class="card-text">Product Designer</p>
@@ -379,5 +378,16 @@
       </div>  
     </div>          
       </footer>
+
+      <div class="backdrop is-hidden" data-modal>
+      <div clas="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+          <svg class="modal-close-btn-icon" width="8px" height="8px">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+      </div>
+      <script src="./js/modal.js"></script>
   </body>
 </html>
