@@ -582,7 +582,7 @@ visibility: inherit;
     transform: translate(-50%, -50%);
     width: 408px;
     height: 576px;
-    background-color: rgb(255, 255, 255);
+    background-color: #FCFCFC;
 }
 
 .modal-close-btn {
